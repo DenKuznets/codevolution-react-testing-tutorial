@@ -1,5 +1,7 @@
-export const Greet = ({name} : {name?:string}) => {
+import { GreetTypes } from "./Greet.types"
+
+export const Greet = (props : GreetTypes) => {
   return (
-    <div>Hello {name}</div>
+    <div>Hello {props.name}</div>
   )
 }
