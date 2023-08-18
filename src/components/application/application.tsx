@@ -4,7 +4,7 @@ export const Application = () => {
             <h3>Hello</h3>
             <h1>Job application form</h1>
             <h2>Section 1</h2>
-            {/* <p>All fields are mandatory</p> */}
+            <p>All fields are mandatory</p>
             {/* <span title="close">X</span> */}
             {/* <img
                 src="https://via.placeholder.com/150"
