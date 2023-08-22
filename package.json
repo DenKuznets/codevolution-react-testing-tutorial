@@ -14,6 +14,7 @@
         "@types/node": "^16.18.40",
         "@types/react": "^18.2.20",
         "@types/react-dom": "^18.2.7",
+        "eslint-plugin-jest-dom": "^5.0.2",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-scripts": "5.0.1",
@@ -30,7 +31,8 @@
     "eslintConfig": {
         "extends": [
             "react-app",
-            "react-app/jest"
+            "react-app/jest",
+            "plugin:jest-dom/recommended"
         ]
     },
     "browserslist": {
@@ -54,5 +56,8 @@
                 "statements": -10
             }
         }
+    },
+    "devDependencies": {
+        "msw": "^1.2.3"
     }
 }
