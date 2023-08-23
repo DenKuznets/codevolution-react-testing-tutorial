@@ -1,3 +1,3 @@
 export interface GreetTypes {
-    name?: string;
+  name?: string;
 }

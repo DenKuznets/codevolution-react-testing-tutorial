@@ -1,18 +1,20 @@
 import { rest } from "msw";
 
-export const handlers = [rest.get("https://jsonplaceholder.typicode.com/users", (req, res, ctx) => {
+export const handlers = [
+  rest.get("https://jsonplaceholder.typicode.com/users", (req, res, ctx) => {
     return res(
-        ctx.status(200),
-        ctx.json([
-            {
-                name: 'den Kuz'
-            },
-            {
-                name: 'pavel jara'
-            },
-            {
-                name: 'leha panika'
-            },
-        ])
-    )
-})];
+      ctx.status(200),
+      ctx.json([
+        {
+          name: "den Kuz",
+        },
+        {
+          name: "pavel jara",
+        },
+        {
+          name: "leha panika",
+        },
+      ]),
+    );
+  }),
+];

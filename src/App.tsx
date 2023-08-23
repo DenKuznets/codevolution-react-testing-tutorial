@@ -9,16 +9,16 @@ import { MuiMode } from "./components/mui/MuiMode";
 import { CounterTwo } from "./components/counter-two/CounterTwo";
 
 function App() {
-    return (
-        <AppProviders>
-            <div className="App">
-                {/* <Application /> */}
-                {/* <Skills skills={["HTML", "CSS"]} /> */}
-                {/* <Counter /> */}
-                {/* <MuiMode /> */}
-            </div>
-        </AppProviders>
-    );
+  return (
+    <AppProviders>
+      <div className="App">
+        {/* <Application /> */}
+        {/* <Skills skills={["HTML", "CSS"]} /> */}
+        {/* <Counter /> */}
+        {/* <MuiMode /> */}
+      </div>
+    </AppProviders>
+  );
 }
 
 export default App;
