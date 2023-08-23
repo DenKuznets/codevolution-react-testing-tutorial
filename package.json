@@ -69,9 +69,14 @@
         "lint-staged": "^14.0.1",
         "prettier": "3.0.2"
     },
+    "lint-staged": {
+        "src/**/*.{ts,css,html}": [
+            "npm run prettier:check"
+        ]
+    },
     "husky": {
         "hooks": {
-            "pre-commit": "npm run prettier:check"
+            "pre-commit": "lint-staged"
         }
     }
 }
