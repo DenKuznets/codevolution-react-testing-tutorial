@@ -70,7 +70,7 @@
         "prettier": "3.0.2"
     },
     "lint-staged": {
-        "src/**/*.{ts,css,html}": [
+        "src/**/*.{ts,tsx,css,html}": [
             "npm run prettier:check"
         ]
     },
