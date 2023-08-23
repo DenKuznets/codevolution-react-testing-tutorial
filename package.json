@@ -29,7 +29,7 @@
         "format": "prettier --ignore-path .gitignore --write \"**/*.{ts,tsx,css,scss}\"",
         "lint": "eslint --ignore-path .gitignore .",
         "prepare": "husky install",
-        "prettier:check": "prettier --config .prettierrc --check \"src/**/*.{ts,css,html}\""
+        "prettier:check": "prettier --config .prettierrc --check \"src/**/*.{ts,tsx,scss,css,html}\""
     },
     "eslintConfig": {
         "extends": [
