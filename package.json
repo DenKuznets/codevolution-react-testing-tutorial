@@ -68,5 +68,10 @@
         "msw": "^1.2.3",
         "lint-staged": "^14.0.1",
         "prettier": "3.0.2"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run prettier:check"
+        }
     }
 }
